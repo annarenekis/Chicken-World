@@ -296,20 +296,10 @@ article img {
   max-height: 500px;
 }
 
-/* Chicken Types Section */
-.chicken-types img {
-  width: 30%;
-}
-
 /* Farm Tips Section Styles */
 .farm-tips {
   background-color: #f4f4f4;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.farm-tips img {
-  max-width: 400px;
-  height: auto;
 }
 
 .farm-tips article {
@@ -357,7 +347,7 @@ article h3 {
 }
 
 /* Responsive Styles for All Pages */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
   header {
     flex-direction: column;
     text-align: center;
@@ -366,7 +356,20 @@ article h3 {
   .hero h2 {
     font-size: 2.5em;
   }
+article div {
+  flex-direction: column;
 
+}
+article img {
+  width: 100%;
+  height: auto;
+}
+.pre-articles-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
+
+}
   .features .feature {
     width: 100%;
   }
