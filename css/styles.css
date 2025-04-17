@@ -351,6 +351,7 @@ article h3 {
   header {
     flex-direction: column;
     text-align: center;
+    justify-content: center;
   }
 
   .hero h2 {
@@ -360,6 +361,9 @@ article h3 {
 article div {
   flex-direction: column;
 
+}
+article, .feature, .catalog-item {
+  margin: 0;
 }
 article img {
   width: 100%;
@@ -390,15 +394,15 @@ article img {
   }
 
   .farm-tips {
-    padding: 30px 15px;
+    padding: 4vh;
   }
 
   .farm-tips h2 {
     font-size: 2em;
   }
 
-  .farm-tips article {
-    padding: 15px;
+  article {
+    padding: 4vh;
   }
 
   .farm-tips article h3 {
@@ -406,13 +410,10 @@ article img {
   }
 
   .farm-tips p,
-  .farm-tips article p {
+  article p, .farm-tips article ul li  {
     font-size: 1em;
   }
 
-  .farm-tips article ul li {
-    font-size: 1em;
-  }
 }
 
 /* Animations */
